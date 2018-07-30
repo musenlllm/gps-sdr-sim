@@ -97,7 +97,8 @@ The simulated GPS signal file, named "gpssim.bin", can be loaded
 into the bladeRF for playback as shown below:
 
 ```
-set frequency 1575.42M
+set frequency tx 1575.42M
+set frequency rx 1575.42M
 set samplerate 2.6M
 set bandwidth 2.5M
 set txvga1 -25
